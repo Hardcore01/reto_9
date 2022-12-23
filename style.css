@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    src: url(/Poppins-Regular.ttf);
+    font-family: texto;
+}
+body{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.header{
+    width: 375px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.header>h1{
+    width: 325px;
+    height: 35px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 25px;
+    font-family: texto;
+    color: hsl(234, 12%, 34%)
+}
+.header>h2{
+    width: 325px;
+    height: 35px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 27px;
+    font-family: texto;
+}
+.header>p{
+    width: 325px;
+    height: 80px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 16px;
+    font-family: texto;
+    color:  hsl(234, 12%, 34%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.card-supervisor{
+    height: 220px;
+    width: 325px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px 1px rgb(165, 164, 164);
+    border-top: solid 3px hsl(180, 62%, 55%);
+}
+.card-supervisor>h3{
+    width: 270px;
+    height: 30px;
+    margin-top: 15px;
+    font-family: texto;
+    font-size: 20px;
+}
+.card-supervisor>p{
+    width: 270px;
+    height: 45px;
+    font-family: texto;
+    font-size: 15px;
+    color:  hsl(234, 12%, 34%);
+}
+.card-supervisor>picture{
+    width: 270px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.card-supervisor>img{
+    align-self: flex-end;
+    order: 0;
+    width: 60px;
+    height: 60px;
+}
+
+.card-team{
+    height: 220px;
+    width: 325px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px 1px rgb(165, 164, 164);
+    border-top: solid 3px hsl(0, 78%, 62%);
+}
+.card-team>h3{
+    width: 270px;
+    height: 30px;
+    margin-top: 15px;
+    font-family: texto;
+    font-size: 20px;
+}
+.card-team>p{
+    width: 270px;
+    height: 45px;
+    font-family: texto;
+    font-size: 15px;
+    color:  hsl(234, 12%, 34%);
+}
+.card-team>picture{
+    width: 270px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.card-team>img{
+    align-self: flex-end;
+    order: 0;
+    width: 60px;
+    height: 60px;
+}
+
+.card-karma{
+    height: 220px;
+    width: 325px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px 1px rgb(165, 164, 164);
+    border-top: solid 3px hsl(34, 97%, 64%);
+}
+.card-karma>h3{
+    width: 270px;
+    height: 30px;
+    margin-top: 15px;
+    font-family: texto;
+    font-size: 20px;
+}
+.card-karma>p{
+    width: 270px;
+    height: 45px;
+    font-family: texto;
+    font-size: 15px;
+    color:  hsl(234, 12%, 34%);
+}
+.card-karma>picture{
+    width: 270px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.card-karma>img{
+    align-self: flex-end;
+    order: 0;
+    width: 60px;
+    height: 60px;
+}
+
+.card-calculator{
+    height: 220px;
+    width: 325px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 0px 15px 20px 1px rgb(165, 164, 164);
+    border-top: solid 3px hsl(212, 86%, 64%);
+}
+.card-calculator>h3{
+    width: 270px;
+    height: 30px;
+    margin-top: 15px;
+    font-family: texto;
+    font-size: 20px;
+}
+.card-calculator>p{
+    width: 270px;
+    height: 45px;
+    font-family: texto;
+    font-size: 15px;
+    color:  hsl(234, 12%, 34%);
+}
+.card-calculator>picture{
+    width: 270px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.card-calculator>img{
+    align-self: flex-end;
+    order: 0;
+    width: 60px;
+    height: 60px;
+}
+.desktop{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+@media screen and (min-width:1440px){
+
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    .header{
+        width: 550px;
+        height: 25vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        margin-bottom: 0;
+    }
+    .header>p{
+        margin-top: 0;
+        width: 500px;
+        height: 50px;
+    }
+    main{
+        width: 1440px;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 76vh;
+        justify-items: center;
+        align-items: center;
+
+    }
+    
+    
+    .card-supervisor{
+        height: 180px;
+        width: 285px;
+    }
+    .card-supervisor>h3{
+        width: 250px;
+    }
+    .card-supervisor>p{
+        width: 250px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .card-supervisor>picture{
+        width: 250px;
+        height: 45px;
+    }
+    .card-supervisor>img{
+        width: 50px;
+        height: 50px;
+    }
+    
+
+    
+    .card-team{
+        height: 180px;
+        width: 285px;
+    }
+    .card-team>h3{
+        width: 250px;
+    }
+    .card-team>p{
+        width: 250px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .card-team>picture{
+        width: 250px;
+        height: 45px;
+    }
+    .card-team>img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .card-karma{
+        height: 180px;
+        width: 285px;
+    }
+    .card-karma>h3{
+        width: 250px;
+    }
+    .card-karma>p{
+        width: 250px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .card-karma>picture{
+        width: 250px;
+        height: 45px;
+    }
+    .card-karma>img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .card-calculator{
+        height: 180px;
+        width: 285px;
+        
+    }
+    .card-calculator>h3{
+        width: 250px;
+    }
+    .card-calculator>p{
+        width: 250px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .card-calculator>picture{
+        width: 250px;
+        height: 45px;
+    }
+    .card-calculator>img{
+        width: 50px;
+        height: 50px;
+    }
+}
